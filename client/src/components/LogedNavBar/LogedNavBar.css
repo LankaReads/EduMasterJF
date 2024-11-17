@@ -1,0 +1,16 @@
+.logo1 {
+    width: 70px;
+    height: auto;
+    margin: 0;
+    margin-top: 0;
+}
+  
+  .modal-content {
+    border-radius: 15px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  

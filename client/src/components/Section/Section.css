@@ -1,0 +1,42 @@
+.section-container {
+  padding: 60px 0;
+  background-color: #f0f8ff; /* Light background color */
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.fixed-size-img {
+  width: auto;
+  height: 200px; /* Fixed height for larger screens */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+
+@media (max-width: 767px) {
+  .fixed-size-img {
+    height: 150px; /* Adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .fixed-size-img {
+    height: 120px; /* Further adjust height for extra small screens */
+  }
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}

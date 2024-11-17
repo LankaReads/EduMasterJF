@@ -1,0 +1,46 @@
+.open-course-container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .course-title {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  .course-teacher {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  .card-header {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+  
+  .enroll-button {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .open-course-container {
+    margin-left: 270px; /* Adjust this to match the sidebar width */
+  }
+  
+  @media (max-width: 768px) {
+    .open-course-container {
+      margin-left: 0; /* Remove margin on smaller screens */
+      padding-top: 20px;
+    }
+  }
+    

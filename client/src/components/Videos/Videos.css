@@ -1,0 +1,61 @@
+.videos-section {
+  background-color: #d0d3d5; /* Light background */
+  padding: 50px 0;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-title {
+  font-size: 1.25rem;
+  color: #0f4b70; /* Changed title color to a darker shade of red */
+  font-weight: bold;
+}
+
+.video-description {
+  color: #6c757d; /* Muted gray for descriptions */
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.go-channel-btn {
+  background-color: #0f4b70 !important; /* Button red color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.go-channel-btn:hover {
+  background-color: #0f4b70; /* Darker red on hover */
+  transform: scale(1.05); /* Slightly larger on hover */
+}
+
+.video-card {
+  background-color: white;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.mm {
+  color: #0f4b70; /* Main title red color */
+  font-weight: bold !important;
+  font-size: 2rem !important;
+}

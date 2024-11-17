@@ -1,0 +1,53 @@
+.student-nav-container {
+  top: 0;
+  left: 0;
+ 
+  width: 250px;
+  background-color: #002147 !important; /* Dark blue background */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) !important; /* Soft shadow */
+  z-index: 1000;
+}
+#student-sidebar {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 20px;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .nav-link i {
+    margin-right: 10px;
+  }
+  .nav-link:hover {
+    background-color: #0d6efd !important; /* Blue background on hover */
+    color: white !important;
+    text-decoration: none; /* No underline */
+    transition: background-color 0.3s ease;
+  }
+  .nav-link.active, .nav-link:focus {
+    background-color: #0d6efd !important; /* Active tab background */
+    color: white !important;
+  }
+  .bg-primary{
+    background-color: #002147 !important;
+  } 
+  /* Mobile Menu */
+  @media (max-width: 991.98px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+
+    .nav-link {
+      text-align: left;
+    padding-left: 15px;
+  }
+}

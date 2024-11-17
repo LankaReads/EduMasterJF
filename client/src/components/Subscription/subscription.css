@@ -1,0 +1,53 @@
+.medicine-section {
+    background-color: #e0f7fa; /* Light teal for a professional healthcare feel */
+    padding: 50px 0;
+  }
+  
+  .section-title {
+    color: #00796b; /* Dark teal for medical theme */
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .section-subtitle {
+    color: #455a64; /* Muted gray for subtitle */
+    font-size: 1.1rem;
+  }
+  
+  .medicine-card {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .medicine-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    color: #00695c; /* Darker teal for card titles */
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    color: #6c757d; /* Muted gray for card text */
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .medicine-card {
+      margin-bottom: 20px;
+    }
+  }
+  

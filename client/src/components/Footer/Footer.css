@@ -1,0 +1,26 @@
+.bg-darkblue {
+    background-color: #00274d !important; /* Dark blue */
+}
+
+.logo2 {
+    width: 50%;
+    
+}
+
+footer p, footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}

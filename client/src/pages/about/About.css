@@ -1,0 +1,140 @@
+/* General Styles */
+.jumbotron img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Team Member Styles */
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.shadow-lg {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+
+    .container {
+        background-color: #1f1f1f;
+        color: #e0e0e0;
+    }
+
+    .jumbotron img {
+        filter: brightness(0.8);
+    }
+
+    .shadow-lg {
+        box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+    }
+
+    .card {
+        background-color: #2c2c2c;
+        color: #ffffff;
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .rounded-circle {
+        border: 2px solid #ffffff;
+    }
+
+    a {
+        color: #00bcd4;
+    }
+
+    a:hover {
+        color: #80deea;
+    }
+
+    h2, h3, h4 {
+        color: #ffffff;
+    }
+
+    p {
+        color: #e0e0e0;
+    }
+
+    .bi {
+        color: #00bcd4;
+    }
+
+    .btn {
+        background-color: #00bcd4;
+        color: #ffffff;
+    }
+
+    .btn:hover {
+        background-color: #80deea;
+        color: #000000;
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 30px 0;
+    }
+
+    .img-fluid {
+        width: 80%;
+        height: auto;
+    }
+
+    .rounded-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .shadow-lg {
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media (min-width: 769px) {
+    .container {
+        max-width: 80%;
+    }
+}
+.about-container  {
+    padding: 50px 0;
+    background: linear-gradient(to bottom, #aedbf5, #ffffff);
+  }
+  body.dark-mode .about-container {
+    background: linear-gradient(to bottom, #000000, #000000); /* Green to black gradient */
+  }
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-danger {
+    color: #d9534f !important;
+  }
+  
+  .text-info {
+    color: #5bc0de !important;
+  }
+  
+  .text-primary {
+    color: #0275d8 !important;
+  }
+  
+  h4 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    line-height: 1.6;
+  }
+  

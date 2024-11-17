@@ -1,0 +1,26 @@
+.programs-section {
+  max-width: 1200px; /* Set a max width for larger screens */
+  margin: auto; /* Center the section */
+}
+
+.course-title {
+  font-size: 1.25rem; /* Adjust the font size for course titles */
+  font-weight: bold; /* Make titles bold */
+}
+
+.enroll-btn {
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.enroll-btn:hover {
+  background-color: #0056b3; /* Change button color on hover */
+  transform: scale(1.05); /* Slightly scale up button on hover */
+}
+
+.hover-card {
+  transition: transform 0.2s; /* Add a hover effect */
+}
+
+.hover-card:hover {
+  transform: translateY(-5px); /* Slightly raise card on hover */
+}

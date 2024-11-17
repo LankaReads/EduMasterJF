@@ -1,0 +1,137 @@
+/* Dashboard Styles */
+.dashboard-container {
+  padding: 20px;
+  background-color: #f5f6f8; /* Light background color */
+}
+
+/* Right Content: Profile and Courses */
+.right-content {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.right-content:hover {
+  transform: translateY(-5px); /* Smooth hover effect */
+  transition: transform 0.3s ease;
+}
+
+/* Profile Section */
+.profile-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-section img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #007bff; /* Add a border to the profile picture */
+}
+
+.profile-section h2 {
+  margin-top: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+.profile-section p {
+  color: #777;
+  font-size: 16px;
+}
+
+/* Stats Section */
+.student-stats {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.stat-item {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.student-stats .btn {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.student-stats .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Course Section */
+.course-item {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.course-item:hover {
+  transform: translateY(-5px);
+}
+
+.course-item .course-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.course-item h5 {
+  font-size: 20px;
+  color: #333;
+}
+
+.course-item p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Sidebar: Navigation Menu */
+.student-nav-bar {
+  background-color: #007bff;
+  padding: 20px;
+  height: 100vh;
+  border-radius: 10px;
+}
+
+.student-nav-bar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.student-nav-bar li {
+  margin-bottom: 15px;
+}
+
+.student-nav-bar a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: block;
+}
+
+.student-nav-bar a:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+}

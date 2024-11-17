@@ -1,0 +1,63 @@
+/* Blogs.css */
+
+
+
+
+.blog-heading{
+    font-size: 3.5rem;
+    
+    color: #007BFF;
+    font-family:'poppins';
+}
+
+.jumbotron {
+    border-radius: 0;
+    box-shadow: 0px 4px 20px rgba(0, 123, 255, 0.5);
+}
+
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-title-blog {
+    color: #007BFF;
+}
+
+.card-text {
+    color: #555;
+}
+
+.full-height-img {
+    height: 300px !important; /* Adjust this value as needed to fit your design */
+    object-fit: cover; /* Ensures the image covers the entire space */
+}
+
+.btn-outline-primary {
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin: 0 auto; /* Center cards on smaller screens */
+    }
+}
+.image-container {
+    height: 300px; /* Set a fixed height for the image container */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.full-height-img {
+    height: 100% !important; /* Set the image height to 100% of the container */
+    width: 100% !important; /* Maintain aspect ratio */
+    object-fit: cover !important; /* Cover the container without distortion */
+}

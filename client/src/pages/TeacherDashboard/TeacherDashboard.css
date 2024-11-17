@@ -1,0 +1,116 @@
+/* General Styles */
+.dashboard-container {
+    padding: 50px 0;
+    background: linear-gradient(to bottom, #aedbf5, #ffffff);
+  }
+  
+  /* Left Column: Student Information */
+  .student-info-container {
+    padding: 30px;
+    background: linear-gradient(to bottom, #aedbf5, #ffffff);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .student-name {
+    font-size: 1.8rem;
+    color: #343a40;
+  }
+  
+  .student-email {
+    font-size: 1.1rem;
+    color: #6c757d;
+  }
+  
+  .student-stats {
+    margin-top: 20px;
+  }
+  
+  .stat-item {
+    font-size: 1.2rem;
+    color: #495057;
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  
+  /* Right Column: Course Contents */
+  .course-content-container {
+    padding: 30px;
+    background: linear-gradient(to bottom, #aedbf5, #ffffff);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .course-item {
+    background: linear-gradient(to bottom, #aedbf5, #ffffff);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .course-item:hover {
+    background-color: #e2e6ea;
+  }
+  
+  .course-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .course-title h5 {
+    font-size: 1.3rem;
+    color: #343a40;
+  }
+  
+  .course-progress p {
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  .course-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode .dashboard-container {
+    background: linear-gradient(to bottom, #000000, #000000); /* Dark background */
+  }
+  
+  body.dark-mode .student-info-container,
+  body.dark-mode .course-content-container {
+    background: linear-gradient(to bottom, #000000, #000000); /* Dark mode cards */
+    color: #ffffff;
+  }
+  
+  body.dark-mode .student-name,
+  body.dark-mode .course-title h5 {
+    color: #28a745; /* Green for dark mode */
+  }
+  
+  body.dark-mode .student-email,
+  body.dark-mode .course-progress p {
+    color: #d1d1d1; /* Lighter text */
+  }
+  
+  body.dark-mode .course-item {
+    background: linear-gradient(to bottom, #495057, #495057);
+  }
+  
+  body.dark-mode .course-item:hover {
+    background-color: #5a6268; /* Slight hover effect */
+  }
+  

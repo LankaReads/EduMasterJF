@@ -1,0 +1,71 @@
+.nav-link-custom {
+  font-weight: bold;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.bgg-white{
+  /* background-color: rgb(197, 225, 238) !important;*/
+  /* opacity: 0.9;  */
+
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* Optional: adds a blur effect */
+}
+
+.navbar {
+  position: fixed; /* Fixes the navbar to the top */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Make sure it stays above other elements */
+}
+
+/* General style for top-level nav items */
+.nav-link-custom,
+.dropdown-item-custom {
+  font-weight: bold;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  color: #000 !important;
+  border-radius: 3px;
+  text-decoration: none !important;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.dropdown-item-custom{
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  border: none !important;
+}
+
+/* Top-level Programs dropdown style */
+.dropdown-item-custom:hover {
+  color: #ffffff !important;
+  background-color: #5ca7f8;
+}
+
+/* More Courses submenu styling - without border or text decoration */
+.dropdown-submenu .dropdown-item-custom {
+  border: none !important;
+  text-decoration: none !important;
+  color: #333; /* Use standard color */
+}
+
+.dropdown-submenu .dropdown-item-custom:hover {
+  background-color: #f0f0f0; /* Light background on hover */
+  color: #007bff; /* Optional: blue text on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav-link-custom, .dropdown-item-custom {
+    width: 100%; /* Make items full width on smaller screens */
+    text-align: center;
+    border: none; /* Optional: remove borders on mobile for cleaner look */
+  }
+}
+.nav-link-custom.active {
+  font-weight: bold;
+  color: #f42d00; /* Your theme color */
+  border-bottom: 2px solid #f42d00; /* Optional underline effect */
+}

@@ -1,0 +1,26 @@
+.dashboard-stat {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    font-weight: bold;
+    background-color: #f8f9fa;
+  }
+  
+  .card-body {
+    position: relative;
+  }
+  
+  .float-end {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  

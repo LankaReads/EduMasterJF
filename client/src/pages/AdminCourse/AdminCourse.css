@@ -1,0 +1,47 @@
+/* AdminCourse.css */
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  max-height: 150px; /* Limit the height of the images */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+  border-radius: 8px 8px 0 0; /* Rounded top corners */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Increase title font size for better visibility */
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.95rem; /* Adjust text size for better readability */
+  color: #555; /* Softer text color */
+}
+
+.btn {
+  border-radius: 20px; /* Rounded button corners */
+}
+
+.modal-body {
+  padding: 20px; /* Increased padding for a more spacious modal */
+}
+
+.form-control {
+  border-radius: 5px; /* Rounded input fields */
+}
+
+.footer {
+  background-color: #f8f9fa; /* Light footer background */
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid #e3e3e3; /* Subtle top border */
+}

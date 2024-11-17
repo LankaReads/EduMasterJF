@@ -1,0 +1,66 @@
+.student-profile-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    align-items: center !important;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .student-profile-container:hover {
+    transform: scale(1.05); /* Slight hover effect */
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #007bff; /* Blue border around the profile image */
+    padding: 5px;
+  }
+  
+  .student-name {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .student-email {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .student-stats {
+    margin-top: 20px;
+  }
+  
+  .stat-item {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .stat-item strong {
+    color: #007bff; /* Highlight stats with primary color */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-3px); /* Button hover effect */
+  }
+  
+  @media (max-width: 768px) {
+    .student-profile-container {
+      padding: 20px;
+    }
+  }
+  

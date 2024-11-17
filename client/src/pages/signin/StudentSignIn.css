@@ -1,0 +1,12 @@
+.bgLoginL{
+    background-image: url('../../assets/studypic2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.bgLoginR{
+    background-image: url('../../assets/bgpic1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}

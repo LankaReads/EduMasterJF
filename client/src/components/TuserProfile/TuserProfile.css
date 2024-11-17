@@ -1,0 +1,24 @@
+.student-profile-container {
+    border: 1px solid #006af4; /* Add border to profile containers */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    margin: 10px; /* Outer margin */
+    background-color: #ffffff; /* Background color */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    transition: transform 0.2s; /* Smooth hover effect */
+  }
+  
+  .student-profile-container:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .student-name {
+    font-size: 1.5rem; /* Larger font size for names */
+    color: #333; /* Darker color for better readability */
+  }
+  
+  .student-email {
+    font-size: 1rem; /* Standard font size for emails */
+    color: #666; /* Slightly lighter color for email */
+  }
+  

@@ -1,0 +1,38 @@
+.feature-background {
+    background-color: #e9f7fa; /* Light teal background for a clinical feel */
+}
+
+.feature-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1b6ca8; /* Professional dark blue color */
+}
+
+.feature-card {
+    background-color: white;
+    border: 2px solid #1b6ca8; /* Dark blue border */
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 320px;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+    color: #1b6ca8; /* Consistent dark blue icon color */
+}
+
+h4 {
+    color: #1b6ca8; /* Dark blue color for feature titles */
+    font-weight: 600;
+}
+
+p {
+    color: #555; /* Softer dark color for text */
+    font-size: 1rem;
+    line-height: 1.5;
+}

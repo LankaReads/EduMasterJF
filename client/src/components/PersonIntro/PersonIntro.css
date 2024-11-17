@@ -1,0 +1,42 @@
+.intro-container {
+  background-color: #f8f9fa;
+  padding: 3rem;
+
+}
+
+.intro-image {
+  max-width: 100%;
+  height: auto;
+ 
+  transition: transform 0.3s ease-in-out;
+}
+
+.intro-image:hover {
+  transform: scale(1.05);
+}
+
+.intro-title {
+  color: #2c3e50;
+}
+
+.intro-subtitle {
+  font-size: 1.75rem !important;
+  color: #535f69 !important;
+}
+
+.intro-description {
+  line-height: 1.6rem !important;
+  color: #384553 !important;
+}
+
+button.btn-primary,
+button.btn-outline-primary {
+  border-radius: 30px;
+  padding: 0.6rem 2rem;
+}
+
+button.btn-primary:hover,
+button.btn-outline-primary:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
