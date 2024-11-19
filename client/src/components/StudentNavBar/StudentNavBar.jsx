@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'; // Import Bootstrap Icons
-import './StudentNavBar.css';
+import '@/components/StudentNavBar/StudentNavBar.css';
 
 function StudentNavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

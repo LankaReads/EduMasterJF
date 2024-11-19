@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 import logo1 from "../../img/logo1.png";
-import './AdminNavBar.css'
+import '@/components/AdminNavBar/AdminNavBar.css'
 
 
 function AdminNavBar() {

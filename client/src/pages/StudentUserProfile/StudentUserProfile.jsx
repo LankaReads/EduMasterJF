@@ -1,12 +1,12 @@
 import React from 'react';
-import './StudentUserProfile.css';
-import Footer from '../../components/Footer/footer';
+import '@/pages/StudentUserProfile/StudentUserProfile.css';
+import Footer from '@/components/Footer/footer';
 
-import StudentNavBar from '../../components/StudentNavBar/StudentNavBar';
+import StudentNavBar from '@/components/StudentNavBar/StudentNavBar';
 
-import SuserProfile from '../../components/SuserProfile/SuserProfile';
-import NavBar from '../../components/navBar/Nav';
-import LogedNavBar from '../../components/LogedNavBar/LogedNavBar';
+import SuserProfile from '@/components/SuserProfile/SuserProfile';
+import NavBar from '@/components/navBar/Nav';
+import LogedNavBar from '@/components/LogedNavBar/LogedNavBar';
 
 
 const StudentUserProfile = () => {

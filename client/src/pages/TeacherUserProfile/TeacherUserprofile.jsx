@@ -1,10 +1,10 @@
 import React from 'react';
-import './TeacherUserProfile.css';
-import Footer from '../../components/Footer/footer';
-import TuserProfile from '../../components/TuserProfile/TuserProfile';
-import TeacherNavBar from '../../components/TeacherNavBar/TeacherNavBar';
-import NavBar from '../../components/navBar/Nav';
-import LogedNavBar from '../../components/LogedNavBar/LogedNavBar';
+import '@/pages/TeacherUserProfile/TeacherUserProfile.css';
+import Footer from '@/components/Footer/footer';
+import TuserProfile from '@/components/TuserProfile/TuserProfile';
+import TeacherNavBar from '@/components/TeacherNavBar/TeacherNavBar';
+import NavBar from '@/components/navBar/Nav';
+import LogedNavBar from '@/components/LogedNavBar/LogedNavBar';
 
 
 const TeacherUserProfile = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Features.css';
+import '@/components/Features/Features.css';
 import { FaRobot, FaHeartbeat, FaStethoscope, FaFileMedicalAlt } from 'react-icons/fa';
 
 function Features() {

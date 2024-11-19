@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Card, Button, Modal, Form, Container } from 'react-bootstrap';
-import './AdminCourse.css';
+import '@/pages/AdminCourse/AdminCourse.css';
 
 import Footer from '../../components/Footer/footer';
 import AdminNavBar from '../../components/AdminNavBar/AdminNavBar';

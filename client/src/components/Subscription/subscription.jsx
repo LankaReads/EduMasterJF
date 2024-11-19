@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Subscription.css';
+import '@/components/Subscription/subscription.css';
 
 function MedicineInfo() {
     const medicineImg1 = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAU_Tss-A4841Fex7NLsLO1krqnO9W4Jd8oA&s'; // Placeholder medical AI image

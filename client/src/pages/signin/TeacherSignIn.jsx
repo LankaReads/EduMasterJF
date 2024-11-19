@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import './TeacherSignIn.css';
+import '@/pages/signin/TeacherSignIn.css';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import CommonForm from '@/components/common-form';
 import { signInFormControls, signUpFormControls } from '@/config';

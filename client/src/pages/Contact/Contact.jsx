@@ -1,7 +1,7 @@
 // client/src/components/ContactForm.jsx
 import React, { useState } from 'react';
 import axios from 'axios';
-import './Contact.css';
+import '@/pages/Contact/Contact.css';
 import NavBar from '@/components/navBar/Nav';
 import Footer from '@/components/Footer/footer';
 

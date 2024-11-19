@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Footer.css'; // Custom styles
+import '@/components/Footer/Footer.css'; // Custom styles
 import logo from "../../img/logo1.png";
 
 function Footer() {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './ScrollTop.css'; 
+import '@/components/Scroll-top/ScrollTop.css'; 
 import { FaChevronUp } from 'react-icons/fa';  // Import the new icon
 
 const ScrollTop = () => {

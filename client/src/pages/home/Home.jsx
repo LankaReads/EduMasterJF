@@ -1,16 +1,16 @@
 import React from 'react'
-import Hero from '../../components/Herosection/Hero'
-import './Home.css';
+import Hero from '@/components/Herosection/Hero'
+import '@/pages/home/Home.css';
 
-import Overview from '../../components/Overview/overview';
-import Features from '../../components/Features/features';
+import Overview from '@/components/Overview/overview';
+import Features from '@/components/Features/features';
 
-import Subscription from '../../components/Subscription/subscription';
-import Footer from '../../components/Footer/footer';
-import ScrollTop from '../../components/Scroll-top/ScrollTop'
-import Whatsapp from '../../components/Whatsapp/Whatsapp';
-import Videos from '../../components/Videos/Videos';
-import NavBar from '../../components/navBar/Nav';
+import Subscription from '@/components/Subscription/subscription';
+import Footer from '@/components/Footer/footer';
+import ScrollTop from '@/components/Scroll-top/ScrollTop'
+import Whatsapp from '@/components/Whatsapp/Whatsapp';
+import Videos from '@/components/Videos/Videos';
+import NavBar from '@/components/navBar/Nav';
 import Section from '@/components/Section/Section';
 import Medisection from '@/components/Medisection/Medisection';
 import PersonIntro from '@/components/PersonIntro/PersonIntro';

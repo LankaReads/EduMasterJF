@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import './AdminDashboard.css'; // Import any custom styles
+import '@/pages/AdminDashBoard/AdminDashBoard.css'; // Import any custom styles
 import AdminNavBar from '@/components/AdminNavBar/AdminNavBar';
 
 function AdminDashboard() {

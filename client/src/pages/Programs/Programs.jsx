@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Card, Button, Modal } from 'react-bootstrap';
-import './Programs.css';
-import StudentNavBar from '../../components/StudentNavBar/StudentNavBar';
-import Footer from '../../components/Footer/footer';
-import LogedNavBar from '../../components/LogedNavBar/LogedNavBar';
+import '@/pages/Programs/Programs.css';
+import StudentNavBar from '@/components/StudentNavBar/StudentNavBar';
+import Footer from '@/components/Footer/footer';
+import LogedNavBar from '@/components/LogedNavBar/LogedNavBar';
 import NavBar from '@/components/navBar/Nav';
 import ProgramNav from '@/components/ProgramNav/ProgramNav';
 

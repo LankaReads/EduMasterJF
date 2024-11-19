@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import './SuserProfile.css';
+import '@/components/SuserProfile/Suserprofile.css';
 import { AuthContext } from '@/contexts/auth-context'; // Import the AuthContext to access user details
 
 function SuserProfile() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProfileCard.css';
+import '@/components/ProfileCard/ProfileCard.css';
 import ProPic from '../../img/PP.png';
 
 const ProfileCard = ({ user }) => {

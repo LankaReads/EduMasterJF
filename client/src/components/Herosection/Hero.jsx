@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Import Link for navigation
-import "./Hero.css";
+import "@/components/Herosection/Hero.css";
 
 const Hero = () => {
   return (

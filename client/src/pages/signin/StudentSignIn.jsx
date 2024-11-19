@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
-import './StudentSignIn.css';
+import '@/pages/signin/StudentSignIn.css';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import CommonForm from '@/components/common-form';
 import { signInFormControls, signUpFormControls } from '@/config';

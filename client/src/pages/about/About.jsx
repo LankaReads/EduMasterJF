@@ -1,10 +1,10 @@
 import React from 'react';
-import './About.css';
-import Footer from '../../components/Footer/footer';
+import '@/pages/about/About.css';
+import Footer from '@/components/Footer/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import ScrollTop from '../../components/Scroll-top/ScrollTop';
-import NavBar from '../../components/navBar/Nav';
+import ScrollTop from '@/components/Scroll-top/ScrollTop';
+import NavBar from '@/components/navBar/Nav';
 import PersonIntro from '@/components/PersonIntro/PersonIntro';
 import Section from '@/components/Section/Section';
 import Subscription from '@/components/Subscription/subscription';
