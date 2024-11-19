@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Button, Container, Navbar, Modal, Card } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate hook
 import logo1 from "../../img/logo1.png";
-import './LogedNavBar.css';
+import '@/components/LogedNavBar/LogedNavBar.css';
 
 function LogedNavBar() {
   const [show, setShow] = useState(false);

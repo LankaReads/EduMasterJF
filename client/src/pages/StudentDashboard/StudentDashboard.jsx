@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import './StudentDashboard.css';
-import Footer from '../../components/Footer/footer';
-import StudentNavBar from '../../components/StudentNavBar/StudentNavBar';
-import SuserProfile from '../../components/SuserProfile/SuserProfile';
-import CourseSection from '../../components/CourseSection/CourseSection';
-import Programs from '../../pages/Programs/Programs';
-import LogedNavBar from '../../components/LogedNavBar/LogedNavBar';
+import '@/pages/StudentDashboard/StudentDashboard.css';
+import Footer from '@/components/Footer/footer';
+import StudentNavBar from '@/components/StudentNavBar/StudentNavBar';
+import SuserProfile from '@/components/SuserProfile/SuserProfile';
+import CourseSection from '@/components/CourseSection/CourseSection';
+import Programs from '@/pages/Programs/Programs';
+import LogedNavBar from '@/components/LogedNavBar/LogedNavBar';
 
 const StudentDashboard = () => {
   const [enrolledCourses, setEnrolledCourses] = useState([]);

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Footer from '@/components/Footer/Footer';
-import NavBar from '@/components/NavBar/Nav';
+import Footer from '@/components/Footer/footer';
+import NavBar from '@/components/navBar/Nav';
 import Section from '@/components/Section/Section';
 import Subscription from '@/components/Subscription/subscription';
 

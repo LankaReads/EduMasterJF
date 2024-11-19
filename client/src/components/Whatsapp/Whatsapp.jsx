@@ -1,5 +1,5 @@
 import React from 'react';
-import './Whatsapp.css';
+import '@/components/Whatsapp/Whatsapp.css';
 
 const Whatsapp = () => {
     // Function to handle WhatsApp chat link

@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Overview.css';
+import '@/components/Overview/Overview.css';
 import { FaHeartbeat, FaUserMd, FaLaptopMedical, FaStethoscope } from 'react-icons/fa';
 
 function Overview() {

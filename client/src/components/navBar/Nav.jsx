@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import './Nav.css'; 
+import '@/components/navBar/Nav.css'; 
 import logo1 from '../../img/logo1.png';
 
 function NavBar() {

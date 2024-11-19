@@ -1,5 +1,5 @@
 import React from 'react';
-import './Videos.css';
+import '@/components/Videos/Videos.css';
 import { Button } from 'react-bootstrap';
 
 function Videos() {

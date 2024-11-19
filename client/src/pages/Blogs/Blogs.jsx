@@ -1,10 +1,10 @@
 import Footer from '@/components/Footer/footer';
 import NavBar from '@/components/navBar/Nav';
 
-import Subscription from '../../components/Subscription/subscription';
+import Subscription from '@/components/Subscription/subscription';
 
 import React, { useState, useEffect } from 'react';
-import './Blogs.css'; // Importing custom CSS for additional styles
+import '@/pages/Blogs/Blogs.css'; // Importing custom CSS for additional styles
 import Section from '@/components/Section/Section';
 
 function Blogs() {

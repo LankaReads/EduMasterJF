@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
 import { useParams } from "react-router-dom"; // To get the courseId from the URL
-import NavBar from "../../components/navBar/Nav";
-import Footer from "../../components/Footer/footer";
-import StudentNavBar from "../../components/StudentNavBar/StudentNavBar";
-import "./OpenCourse.css";
+import NavBar from "@/components/navBar/Nav";
+import Footer from "@/components/Footer/footer";
+import StudentNavBar from "@/components/StudentNavBar/StudentNavBar";
+import "@/pages/OpenCourse/OpenCourse.css";
 import LogedNavBar from "@/components/LogedNavBar/LogedNavBar";
 import ProgramNav from "@/components/ProgramNav/ProgramNav";
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Section.css'; // External CSS for additional styling
+import '@/components/Section/Section.css'; // External CSS for additional styling
 
 const Section = () => {
   return (

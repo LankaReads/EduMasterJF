@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './TuserProfile.css';
+import '@/components/TuserProfile/TuserProfile.css';
 import { Modal, Button, Form } from 'react-bootstrap'; // Import Modal and other components from react-bootstrap
 import { useNavigate } from 'react-router-dom';
 

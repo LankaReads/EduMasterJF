@@ -1,5 +1,5 @@
 import React from "react";
-import "./PersonIntro.css";
+import "@/components/PersonIntro/PersonIntro.css";
 import { useNavigate } from "react-router-dom";
 import sirImage from "../../assets/sir.jpeg"; // Import the local image
 
