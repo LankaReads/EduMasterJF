@@ -13,7 +13,7 @@ function Blogs() {
 
     useEffect(() => {
         const fetchPosts = async () => {
-            const response = await fetch('http://localhost:5000/api/blogs');
+            const response = await fetch('http://13.60.226.150:5000/api/blogs');
             const data = await response.json();
             setPosts(data);
         };

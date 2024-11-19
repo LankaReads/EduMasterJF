@@ -11,7 +11,7 @@ function AdminBlog() {
     // Fetch posts function
     const fetchPosts = async () => {
         try {
-            const response = await fetch('http://localhost:5000/api/blogs');
+            const response = await fetch('http://13.60.226.150:5000/api/blogs');
             const data = await response.json();
             setPosts(data);
         } catch (error) {
@@ -34,13 +34,13 @@ function AdminBlog() {
         e.preventDefault();
         try {
             if (editingPostId) {
-                await fetch(`http://localhost:5000/api/blogs/${editingPostId}`, {
+                await fetch(`http://13.60.226.150:5000/api/blogs/${editingPostId}`, {
                     method: 'PUT',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(formData),
                 });
             } else {
-                await fetch('http://localhost:5000/api/blogs', {
+                await fetch('http://13.60.226.150:5000/api/blogs', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(formData),
@@ -62,7 +62,7 @@ function AdminBlog() {
 
     const handleDelete = async (id) => {
         try {
-            const response = await fetch(`http://localhost:5000/api/blogs/${id}`, {
+            const response = await fetch(`http://13.60.226.150:5000/api/blogs/${id}`, {
                 method: 'DELETE',
             });
             

@@ -18,7 +18,7 @@ const AdminProject = () => {
 
     const fetchProjectsData = async () => {
         try {
-            const response = await fetch("http://localhost:5000/api/projects");
+            const response = await fetch("http://13.60.226.150:5000/api/projects");
             const data = await response.json();
             setProjectsData(data);
         } catch (error) {
@@ -37,7 +37,7 @@ const AdminProject = () => {
 
     const handleCreateProject = async () => {
         try {
-            const response = await fetch("http://localhost:5000/api/projects", {
+            const response = await fetch("http://13.60.226.150:5000/api/projects", {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(newProject),
@@ -55,7 +55,7 @@ const AdminProject = () => {
 
     const handleUpdateProject = async () => {
         try {
-            const response = await fetch(`http://localhost:5000/api/projects/${editProject._id}`, {
+            const response = await fetch(`http://13.60.226.150:5000/api/projects/${editProject._id}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(editProject),
@@ -71,7 +71,7 @@ const AdminProject = () => {
 
     const handleDeleteProject = async (id) => {
         try {
-            const response = await fetch(`http://localhost:5000/api/projects/${id}`, {
+            const response = await fetch(`http://13.60.226.150:5000/api/projects/${id}`, {
                 method: 'DELETE',
             });
             if (response.ok) fetchProjectsData();
