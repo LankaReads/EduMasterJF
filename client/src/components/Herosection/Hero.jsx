@@ -16,7 +16,7 @@ const Hero = () => {
         
         {/* Button to go to About page */}
         <Link to="/about">
-          <button className="about-button">Learn More</button>
+          <button className="about-button">Read More</button>
         </Link>
       </div>
     </div>
