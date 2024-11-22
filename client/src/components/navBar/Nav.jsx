@@ -42,37 +42,22 @@ function NavBar() {
                 className="nav-link-custom"
                 id="programsDropdown"
               >
-                <NavDropdown.Item href="researchers" className="dropdown-item-custom">
+                <NavDropdown.Item href="/researchers" className="dropdown-item-custom">
                   Our Researchers
                 </NavDropdown.Item>
-                <NavDropdown.Item href="courses" className="dropdown-item-custom">
+                <NavDropdown.Item href="/courses" className="dropdown-item-custom">
                   Courses
                 </NavDropdown.Item>
-                <NavDropdown.Item href="projects" className="dropdown-item-custom">
+                <NavDropdown.Item href="/projects" className="dropdown-item-custom">
                   Projects
                 </NavDropdown.Item>
 
-                {/* Submenu for More Courses */}
-                <NavDropdown
-                  title="Ongoing Projects"
-                  drop="end"
-                  className="submenu-dropdown"
-                >
-                  <NavDropdown.Item href="/courses/design" className="dropdown-item-custom">
-                    Project 01
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/courses/marketing" className="dropdown-item-custom">
-                    Project 02
-                  </NavDropdown.Item>
+              
                 </NavDropdown>
-              </NavDropdown>
+              
 
               <Nav.Link href="/about" className={`nav-link-custom mx-1 ${isActive('/about')}`}>
                 <i className="bi bi-info-circle me-2"></i> About
-              </Nav.Link>
-
-              <Nav.Link href="/blogs" className={`nav-link-custom mx-1 ${isActive('/blogs')}`}>
-                <i className="bi bi-chat-square-text me-2"></i> Blogs
               </Nav.Link>
 
               <Nav.Link href="/contact" className={`nav-link-custom mx-1 ${isActive('/contact')}`}>
@@ -81,7 +66,25 @@ function NavBar() {
 
               <Nav.Link href="/post" className={`nav-link-custom mx-1 ${isActive('/post')}`}>
                 <i className="bi bi-chat-square-text me-2"></i> Posts
+
+                
               </Nav.Link>
+              
+              <NavDropdown
+                title={<><i className="bi bi-journal-bookmark me-2"></i> Posts</>}
+                className="nav-link-custom"
+                id="programsDropdown"
+              >
+                <NavDropdown.Item href="/blogs" className="dropdown-item-custom">
+                  Blogs
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/post" className="dropdown-item-custom">
+                  Posts
+                </NavDropdown.Item>
+                
+
+              
+                </NavDropdown>
 
             </Nav>
           </Navbar.Collapse>

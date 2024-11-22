@@ -1,18 +1,20 @@
 .intro-container {
   background-color: #f8f9fa;
   padding: 3rem;
-
+  text-align: center; /* Center-align content */
 }
 
 .intro-image {
-  max-width: 100%;
+  max-width: 300px; /* Default maximum size for larger screens */
+  width: 100%; /* Ensure responsiveness */
   height: auto;
- 
   transition: transform 0.3s ease-in-out;
+  margin: 0 auto; /* Center the image horizontally */
+  display: block;
 }
 
 .intro-image:hover {
-  transform: scale(1.05);
+  transform: scale(1.05); /* Smooth scaling effect on hover */
 }
 
 .intro-title {
@@ -39,4 +41,30 @@ button.btn-primary:hover,
 button.btn-outline-primary:hover {
   background-color: #0056b3;
   color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .intro-image {
+    max-width: 200px; /* Smaller size for tablets and smaller devices */
+  }
+
+  .intro-title {
+    font-size: 2rem; /* Adjust font size for better readability */
+  }
+
+  .intro-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .intro-description {
+    font-size: 1rem;
+    padding: 0 1rem; /* Add padding for better spacing */
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-image {
+    max-width: 150px; /* Further reduce size for very small screens */
+  }
 }

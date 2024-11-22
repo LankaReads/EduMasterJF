@@ -29,7 +29,7 @@ function AdminNavBar() {
             <Nav.Link href="/adminresearch">Admin-research</Nav.Link>
             <Nav.Link href="/adminprojects">Admin-projects</Nav.Link>
             
-            <Nav.Link href="/teacherdashboard">Admin-teacher</Nav.Link>
+            <Nav.Link href="/teacheropencourse">Admin-teacher</Nav.Link>
             
          
        

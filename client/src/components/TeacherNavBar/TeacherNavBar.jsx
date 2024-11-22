@@ -23,17 +23,17 @@ function TeacherNavBar() {
   };
   const handleCourseSubmit = () => {
     // Validate input (you can customize this logic)
-    if (courseName === 'Maths' && courseId === '6718e4cf8cf9d87533998bfa') {
+    if (courseName === 'Neuro Science' && courseId === '673f0a7c72c5ad766918fe5b') {
       // Navigate to the course page if valid
       navigate(`/teacheropencourse/${courseId}`);
     } 
     // First else if condition
-    else if (courseName === 'Physics' && courseId === '6718e4cf8cf9d87533998bfd') {
+    else if (courseName === 'Bio Medical Physics' && courseId === '673f0aec72c5ad766918fe5d') {
       // Navigate to the respective course page
       navigate(`/teacheropencourse/${courseId}`);
     }
     // Second else if condition
-    else if (courseName === 'ThirdCourse' && courseId === '11223') {
+    else if (courseName === 'health care Data Science' && courseId === '673f0b4272c5ad766918fe5f') {
       // Navigate to the respective course page
       navigate(`/teacheropencourse/${courseId}`);
     } 

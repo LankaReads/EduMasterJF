@@ -1,26 +1,16 @@
-.dashboard-stat {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #007bff;
-  }
-  
-  .card {
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-header {
-    font-weight: bold;
-    background-color: #f8f9fa;
-  }
-  
-  .card-body {
-    position: relative;
-  }
-  
-  .float-end {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-  }
-  
+/* Title Section Styling */
+.admin-dashboard-title-section {
+  background: linear-gradient(to bottom, #bec9e0, #ececec); /* Custom gradient background */
+  color: white;
+  padding: 50px 0;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard-title {
+  font-size: 3rem; /* Large text size for the title */
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}

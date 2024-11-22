@@ -18,23 +18,40 @@ const PersonIntro = () => {
     <div className="intro-container container-fluid py-5">
       <div className="row align-items-center">
         {/* Left Column - Image */}
-        <div className="col-lg-5 col-md-6 text-center">
-          <img src={sirImage} alt="AI Engineer" className="intro-image img-fluid rounded-circle shadow-sm" />
+        <div className="col-lg-5 col-md-6 col-sm-12 text-center mb-4 mb-md-0">
+          <img
+            src={sirImage}
+            alt="AI Engineer"
+            className="intro-image img-fluid rounded-circle shadow-sm"
+          />
         </div>
         {/* Right Column - Text Content */}
-        <div className="col-lg-7 col-md-6 mt-4 mt-md-0 text-center text-md-start">
-          <h1 className="intro-title display-4 fw-bold text-primary">Jinendra Bogahawatte</h1><br />
-          <h3 className="intro-subtitle mb-4 text-muted"><b> Professional researcher : <i> AI In Medicine</i> </b></h3>
-          <p className="intro-description ">
-            With a strong focus on transforming healthcare, Jinendra leverages AI to advance medical research,
-            diagnose with precision, and personalize treatments for improved patient outcomes. His work contributes
-            to creating predictive tools and enabling proactive healthcare solutions, revolutionizing modern medicine.
+        <div className="col-lg-7 col-md-6 col-sm-12 text-center text-md-start">
+          <h1 className="intro-title display-4 fw-bold text-primary">
+            Jinendra Bogahawatte
+          </h1>
+          <h3 className="intro-subtitle mb-4 text-muted">
+            <b>
+              Professional researcher: <i>AI In Medicine</i>
+            </b>
+          </h3>
+          <p className="intro-description">
+            With a strong focus on transforming healthcare, Jinendra leverages AI to advance medical
+            research, diagnose with precision, and personalize treatments for improved patient outcomes.
+            His work contributes to creating predictive tools and enabling proactive healthcare solutions,
+            revolutionizing modern medicine.
           </p>
           <div className="mt-4">
-            <button className="btn btn-primary btn-lg me-3 shadow-sm" onClick={handleViewMore}>
+            <button
+              className="btn btn-primary btn-lg me-3 shadow-sm"
+              onClick={handleViewMore}
+            >
               View More
             </button>
-            <button className="btn btn-outline-primary btn-lg shadow-sm" onClick={handleProjects}>
+            <button
+              className="btn btn-outline-primary btn-lg shadow-sm"
+              onClick={handleProjects}
+            >
               Projects
             </button>
           </div>
