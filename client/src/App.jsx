@@ -46,7 +46,7 @@ function App() {
         <Route path='/teacheruserprofile' element={<TeacherUserProfile />} />
         <Route path='/teacheropencourse/:courseId' element={<TeacherOpenCourse />} />
         <Route path='/admincourse' element={<AdminCourse />} />
-        <Route path='/admindashboard' element={<AdminDashboard />} />
+        <Route path='/admin-jinendra@123' element={<AdminDashboard />} />
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/adminblogs' element={<AdminBlog />} />
         <Route path='/researchers' element={<Researchers />} />

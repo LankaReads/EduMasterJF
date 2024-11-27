@@ -43,19 +43,19 @@
   top: 12%;
   width: 100%;
   z-index: 1;
-  color: #002fff;
+  color: #213F61;
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .welcome {
   font-size: 4rem;
   font-weight: bold;
-  color: #007bff;
+  color: #213F61;
 }
 
 .intro {
   font-size: 2.5rem !important;
-  color: #007bff !important;
+  color: #213F61 !important;
   margin-top: 5px;
 }
 
@@ -63,7 +63,7 @@
 .about-button {
   padding: 10px 30px;
   font-size: 1.2rem;
-  background-color: #054a94;
+  background-color: #213F61 !important;
   color: white;
   border: none;
   border-radius: 25px;
@@ -71,7 +71,7 @@
 }
 
 .about-button:hover {
-  background-color: #0056b3;
+  background-color: #091625 !important;
   transform: scale(1.05);
 }
 

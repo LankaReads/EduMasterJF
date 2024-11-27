@@ -41,8 +41,8 @@ function Footer() {
                     <div className="col-md-4 col-lg-3 mb-4">
                         <h6 className="text-uppercase fw-bold mb-3">Contact Us</h6>
                         <p><i className="fas fa-home me-2"></i>Sri Lanka, Colombo, Homagama</p>
-                        <p><i className="fas fa-envelope me-2"></i>contact@edumaster.lk</p>
-                        <p><i className="fas fa-phone me-2"></i>+94 112 345 678</p>
+                        <p><i className="fas fa-envelope me-2"></i>ceylonranking@gmail.com</p>
+                        <p><i className="fas fa-phone me-2"></i>+94 76 170 7118</p>
                     </div>
                 </div>
             </section>

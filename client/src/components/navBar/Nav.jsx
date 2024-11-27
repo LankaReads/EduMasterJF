@@ -51,10 +51,7 @@ function NavBar() {
                 <NavDropdown.Item href="/projects" className="dropdown-item-custom">
                   Projects
                 </NavDropdown.Item>
-
-              
-                </NavDropdown>
-              
+              </NavDropdown>
 
               <Nav.Link href="/about" className={`nav-link-custom mx-1 ${isActive('/about')}`}>
                 <i className="bi bi-info-circle me-2"></i> About
@@ -75,10 +72,7 @@ function NavBar() {
                 <NavDropdown.Item href="/post" className="dropdown-item-custom">
                   Posts
                 </NavDropdown.Item>
-                
-
-              
-                </NavDropdown>
+              </NavDropdown>
 
             </Nav>
           </Navbar.Collapse>
