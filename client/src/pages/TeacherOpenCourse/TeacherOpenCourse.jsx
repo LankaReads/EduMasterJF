@@ -26,7 +26,7 @@ const TeacherOpenCourse = () => {
   useEffect(() => {
     const fetchCourseDetails = async () => {
       try {
-        const response = await fetch(`http://13.60.226.150:5000/api/courses/${courseId}`);
+        const response = await fetch(`https://13.60.226.150:5000/api/courses/${courseId}`);
         if (!response.ok) {
           throw new Error('Failed to fetch course details');
         }
@@ -75,7 +75,7 @@ const TeacherOpenCourse = () => {
       const updatedWeeks = [...course.weeks];
       updatedWeeks[selectedWeek] = newWeekData;
 
-      const response = await fetch(`http://13.60.226.150:5000/api/courses/${courseId}`, {
+      const response = await fetch(`https://13.60.226.150:5000/api/courses/${courseId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -97,7 +97,7 @@ const TeacherOpenCourse = () => {
   const handleDeleteWeek = async (index) => {
     const updatedWeeks = course.weeks.filter((_, idx) => idx !== index);
     try {
-      const response = await fetch(`http://13.60.226.150:5000/api/courses/${courseId}`, {
+      const response = await fetch(`https://13.60.226.150:5000/api/courses/${courseId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -133,7 +133,7 @@ const TeacherOpenCourse = () => {
     try {
       const updatedWeeks = [...course.weeks, newWeekData];
 
-      const response = await fetch(`http://13.60.226.150:5000/api/courses/${courseId}`, {
+      const response = await fetch(`https://13.60.226.150:5000/api/courses/${courseId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

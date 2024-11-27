@@ -29,7 +29,7 @@ export function AuthProvider({ children }) {
 
     async function handleRegisterUser(role) {
       try {
-        const response = await fetch(`http://13.60.226.150:5000/auth/${role}/signup`, {
+        const response = await fetch(`https://13.60.226.150:5000/auth/${role}/signup`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
