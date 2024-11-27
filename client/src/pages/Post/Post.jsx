@@ -13,7 +13,7 @@ function Posts() {
     useEffect(() => {
         const fetchPosts = async () => {
             try {
-                const response = await fetch('https://13.60.226.150/api/posts');
+                const response = await fetch('/api/api/posts');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }

@@ -13,7 +13,7 @@ const Projects = () => {
         // Fetch projects data from backend
         const fetchProjects = async () => {
             try {
-                const response = await axios.get('https://13.60.226.150/api/projects');
+                const response = await axios.get('/api/api/projects');
                 setProjects(response.data);
             } catch (error) {
                 console.error("Error fetching projects:", error);

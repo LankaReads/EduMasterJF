@@ -16,7 +16,7 @@ const OpenCourse = () => {
   useEffect(() => {
     const fetchCourseDetails = async () => {
       try {
-        const response = await fetch(`https://13.60.226.150/api/courses/${courseId}`);
+        const response = await fetch(`/api/api/courses/${courseId}`);
         if (!response.ok) {
           throw new Error('Failed to fetch course details');
         }

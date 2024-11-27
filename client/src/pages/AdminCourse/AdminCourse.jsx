@@ -31,7 +31,7 @@ const AdminCourse = () => {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const response = await fetch(`https://13.60.226.150/api/courses`);
+        const response = await fetch(`/api/api/courses`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -93,7 +93,7 @@ const AdminCourse = () => {
 
   const handleAddNewCourse = async () => {
     try {
-      const response = await fetch('https://13.60.226.150/api/courses', {
+      const response = await fetch('/api/api/courses', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -114,7 +114,7 @@ const AdminCourse = () => {
 
   const handleEditCourse = async () => {
     try {
-      const response = await fetch(`https://13.60.226.150/api/courses/${selectedCourse._id}`, {
+      const response = await fetch(`/api/api/courses/${selectedCourse._id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -137,7 +137,7 @@ const AdminCourse = () => {
   const handleAddNewWeek = async () => {
     if (selectedCourse) {
       try {
-        const response = await fetch(`https://13.60.226.150/api/courses/${selectedCourse._id}`, {
+        const response = await fetch(`/api/api/courses/${selectedCourse._id}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
@@ -167,7 +167,7 @@ const AdminCourse = () => {
       updatedWeeks[selectedWeekIndex] = newWeekData;
 
       try {
-        const response = await fetch(`https://13.60.226.150/api/courses/${selectedCourse._id}`, {
+        const response = await fetch(`/api/api/courses/${selectedCourse._id}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
@@ -194,7 +194,7 @@ const AdminCourse = () => {
   const handleRemoveCourse = async (courseId) => {
     if (window.confirm('Are you sure you want to delete this course?')) {
       try {
-        const response = await fetch(`https://13.60.226.150/api/courses/${courseId}`, {
+        const response = await fetch(`/api/api/courses/${courseId}`, {
           method: 'DELETE',
         });
 
@@ -213,7 +213,7 @@ const AdminCourse = () => {
     if (selectedCourse) {
       const updatedWeeks = selectedCourse.weeks.filter((_, index) => index !== weekIndex);
       try {
-        const response = await fetch(`https://13.60.226.150/api/courses/${selectedCourse._id}`, {
+        const response = await fetch(`/api/api/courses/${selectedCourse._id}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
