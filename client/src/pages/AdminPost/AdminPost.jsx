@@ -11,7 +11,7 @@ function AdminPosts() {
     // Fetch posts function
     const fetchPosts = async () => {
         try {
-            const response = await fetch('https://13.60.226.150:5000/api/posts');
+            const response = await fetch('https://13.60.226.150/api/posts');
             const data = await response.json();
             setPosts(data);
         } catch (error) {
@@ -34,13 +34,13 @@ function AdminPosts() {
         e.preventDefault();
         try {
             if (editingPostId) {
-                await fetch(`https://13.60.226.150:5000/api/posts/${editingPostId}`, {
+                await fetch(`https://13.60.226.150/api/posts/${editingPostId}`, {
                     method: 'PUT',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(formData),
                 });
             } else {
-                await fetch('https://13.60.226.150:5000/api/posts', {
+                await fetch('https://13.60.226.150/api/posts', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(formData),
@@ -63,7 +63,7 @@ function AdminPosts() {
     // Handle deleting a post
     const handleDelete = async (id) => {
         try {
-            const response = await fetch(`https://13.60.226.150:5000/api/posts/${id}`, {
+            const response = await fetch(`https://13.60.226.150/api/posts/${id}`, {
                 method: 'DELETE',
             });
             

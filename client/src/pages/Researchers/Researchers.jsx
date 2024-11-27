@@ -9,7 +9,7 @@ const Researchers = () => {
     const [researchersData, setResearchersData] = useState([]);
 
     useEffect(() => {
-        fetch("https://13.60.226.150:5000/api/research")
+        fetch("https://13.60.226.150/api/research")
             .then((response) => response.json())
             .then((data) => setResearchersData(data))
             .catch((error) => console.error("Error fetching data:", error));

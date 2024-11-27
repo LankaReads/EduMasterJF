@@ -16,7 +16,7 @@ const Programs = ({ addCourse, enrolledCourses = [], removeCourse }) => {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const response = await fetch(`https://13.60.226.150:5000/api/courses`); // Ensure the endpoint is correct
+        const response = await fetch(`https://13.60.226.150/api/courses`); // Ensure the endpoint is correct
         if (!response.ok) {
           throw new Error('Network response was not ok')
         }

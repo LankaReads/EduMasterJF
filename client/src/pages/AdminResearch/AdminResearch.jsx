@@ -17,7 +17,7 @@ const AdminResearch = () => {
 
     const fetchResearchData = async () => {
         try {
-            const response = await fetch("https://13.60.226.150:5000/api/research");
+            const response = await fetch("https://13.60.226.150/api/research");
             const data = await response.json();
             setResearchersData(data);
         } catch (error) {
@@ -36,7 +36,7 @@ const AdminResearch = () => {
 
     const handleCreateResearch = async () => {
         try {
-            const response = await fetch("https://13.60.226.150:5000/api/research", {
+            const response = await fetch("https://13.60.226.150/api/research", {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(newResearch),
@@ -54,7 +54,7 @@ const AdminResearch = () => {
 
     const handleUpdateResearch = async () => {
         try {
-            const response = await fetch(`https://13.60.226.150:5000/api/research/${editResearch._id}`, {
+            const response = await fetch(`https://13.60.226.150/api/research/${editResearch._id}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(editResearch),
@@ -68,7 +68,7 @@ const AdminResearch = () => {
 
     const handleDeleteResearch = async (id) => {
         try {
-            const response = await fetch(`https://13.60.226.150:5000/api/research/${id}`, {
+            const response = await fetch(`https://13.60.226.150/api/research/${id}`, {
                 method: 'DELETE',
             });
             if (response.ok) fetchResearchData();
