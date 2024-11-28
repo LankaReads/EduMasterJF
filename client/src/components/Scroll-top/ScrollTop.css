@@ -4,8 +4,8 @@
     right: 20px;
     width: 40px;
     height: 40px;
-    background-color: #0004f4;
-    color: rgb(0, 0, 0);
+    background-color: #213F61;
+    color: rgb(255, 255, 255);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -23,7 +23,9 @@
 }
 
 .scroll-top:hover {
-    background-color: #1a3f89;
+    background-color: #ffffff;
+    color: #213F61;
+    border: 2px solid #213F61;
 }
 body.dark-mode .scroll-top {
     background-color: #28a745;

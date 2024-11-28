@@ -24,7 +24,7 @@ const Section = () => {
               <div className="card-body">
                 <h5 className="card-title text-success">About</h5><br />
                 <p className="card-text">Connecting patients with doctors from anywhere.</p>
-                <a href="/telemedicine" className="btn btn-success">About</a>
+                <a href="/about" className="btn btn-success">About</a>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Section = () => {
               <div className="card-body">
                 <h5 className="card-title text-success">Projects</h5> <br />
                 <p className="card-text">Accelerating medical research with artificial intelligence.</p>
-                <a href="/ai-research" className="btn btn-success">Projects</a>
+                <a href="/Projects" className="btn btn-success">Projects</a>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Section = () => {
               <div className="card-body">
                 <h5 className="card-title text-success">Programs</h5> <br />
                 <p className="card-text">Enhancing patient care through AI solutions.</p>
-                <a href="/patient-care" className="btn btn-success">Learn More</a>
+                <a href="/Courses" className="btn btn-success">Learn More</a>
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ const Section = () => {
               <div className="card-body">
                 <h5 className="card-title text-success">Blogs</h5> <br />
                 <p className="card-text">Innovative applications improving healthcare delivery.</p>
-                <a href="/healthcare-apps" className="btn btn-success">blogs</a>
+                <a href="/Blogs" className="btn btn-success">blogs</a>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ const Section = () => {
               <div className="card-body">
                 <h5 className="card-title text-success">Stay Updated</h5> <br />
                 <p className="card-text">Join us and get the latest updates in AI medicine.</p>
-                <a href="/updates" className="btn btn-success">Get Updates</a>
+                <a href="/Contact" className="btn btn-success">Contact Us</a>
               </div>
             </div>
           </div>

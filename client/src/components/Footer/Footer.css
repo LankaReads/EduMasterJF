@@ -24,3 +24,9 @@ footer ul {
 footer ul li {
     margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+    .logo2 {
+      display: none;
+    }
+  }

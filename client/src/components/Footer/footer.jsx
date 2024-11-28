@@ -19,10 +19,10 @@ function Footer() {
                     <div className="col-md-4 col-lg-3 mb-4">
                         <h6 className="text-uppercase fw-bold mb-3">Quick Links</h6>
                         <ul className="list-unstyled">
-                            <li><a href="#!" className="text-reset">Home</a></li>
-                            <li><a href="#!" className="text-reset">Courses</a></li>
-                            <li><a href="#!" className="text-reset">Authors</a></li>
-                            <li><a href="#!" className="text-reset">Register</a></li>
+                            <li><a href="/" className="text-reset">Home</a></li>
+                            <li><a href="/Courses" className="text-reset">Courses</a></li>
+                            <li><a href="/about" className="text-reset">About</a></li>
+                            <li><a href="/contact" className="text-reset">Contact Us</a></li>
                         </ul>
                     </div>
 
@@ -30,10 +30,10 @@ function Footer() {
                     <div className="col-md-4 col-lg-3 mb-4">
                         <h6 className="text-uppercase fw-bold mb-3">Resources</h6>
                         <ul className="list-unstyled">
-                            <li><a href="#!" className="text-reset">Downloads</a></li>
-                            <li><a href="#!" className="text-reset">Help Center</a></li>
-                            <li><a href="#!" className="text-reset">Shopping Cart</a></li>
-                            <li><a href="#!" className="text-reset">Login</a></li>
+                            <li><a href="/Blogs" className="text-reset">Blogs</a></li>
+                            <li><a href="/Post" className="text-reset">Post</a></li>
+                            <li><a href="/researchers" className="text-reset">Researchers</a></li>
+                            <li><a href="/projects" className="text-reset">Projects</a></li>
                         </ul>
                     </div>
 
@@ -50,7 +50,7 @@ function Footer() {
             {/* Footer Bottom */}
             <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.1)' }}>
                 © 2024 Copyright:
-                <a className="text-reset fw-bold" href="#"> EduMaster.lk</a>
+                <a className="text-reset fw-bold" href="madeinsrilanka.nl"> madeinsrilanka.nl</a>
             </div>
         </footer>
     );

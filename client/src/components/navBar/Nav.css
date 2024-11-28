@@ -1,72 +1,136 @@
-.nav-link-custom {
-  font-weight: bold;
-  font-size: 0.8rem;
-  display: flex;
-  align-items: center;
-
-}
-
-.bgg-white{
-  /* background-color: rgb(197, 225, 238) !important;*/
-  /* opacity: 0.9;  */
-
-  background-color: rgba(255, 255, 255, 0.8) ; /* Semi-transparent white */
-  backdrop-filter: blur(10px); /* Optional: adds a blur effect */
-}
-
 .navbar {
-  position: fixed; /* Fixes the navbar to the top */
-  width: 100%; /* Full width */
-  z-index: 1000; /* Make sure it stays above other elements */
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
-/* General style for top-level nav items */
-.nav-link-custom,
+/* Dropdown item styling */
 .dropdown-item-custom {
   font-weight: bold;
   font-size: 0.9rem;
   display: flex;
   align-items: center;
-  color: #000 !important;
   border-radius: 3px;
   text-decoration: none !important;
   transition: color 0.2s, border-color 0.2s;
-}
-
-.dropdown-item-custom{
   padding: 0.5rem 1rem;
   margin: 0.2rem;
   border: none !important;
 }
 
-/* Top-level Programs dropdown style */
+/* Dropdown item hover effect */
 .dropdown-item-custom:hover {
   color: #ffffff !important;
-  background-color: #5ca7f8;
+  background-color: #213F61;
 }
 
-/* More Courses submenu styling - without border or text decoration */
-.dropdown-submenu .dropdown-item-custom {
-  border: none !important;
+/* Navbar links styling */
+.navlinks {
+  color: #213F61 !important; 
+  border: 3px solid #213F61 !important;
+  border-radius: 5px; 
+  padding: 0.5rem 1rem; 
+  margin: 0.2rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+/* Navbar links hover effect */
+.navlinks:hover {
+  background-color: #213F61 !important; 
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+/* Dropdown toggle styling */
+.dropdown-toggle {
+  color: #213F61 !important;
+  border: 3px solid #213F61 !important;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+/* Dropdown toggle hover effect */
+.dropdown-toggle:hover {
+  background-color: #213F61 !important;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+/* Specific styling for dropdowns with icons */
+.dropDownNav {
+  color: #213F61 !important;
+  text-decoration: none;
+}
+
+/* Ensure all parts of the dropdown toggle (text and icon) change on hover */
+.dropdown-toggle:hover .dropDownNav {
+  color: #ffffff !important;
   text-decoration: none !important;
-  color: #333; /* Use standard color */
 }
 
-.dropdown-submenu .dropdown-item-custom:hover {
-  background-color: #f0f0f0; /* Light background on hover */
-  color: #007bff; /* Optional: blue text on hover */
+.dropdown-toggle::after {
+  color: #213F61 !important;
+  transition: color 0.3s ease;
+}
+
+.navlinks:hover .dropDownNav {
+  color: #ffffff !important;
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .nav-link-custom, .dropdown-item-custom {
-    width: 100%; /* Make items full width on smaller screens */
+  .navlinks, .dropdown-toggle {
+    width: 100%; 
     text-align: center;
-    border: none; /* Optional: remove borders on mobile for cleaner look */
   }
 }
-.nav-link-custom.active {
-  font-weight: bold;
-  color: #f42d00; /* Your theme color */
-  border-bottom: 2px solid #f42d00; /* Optional underline effect */
+
+/* Dropdown submenu styling */
+.dropdown-submenu .dropdown-item-custom {
+  border: none !important;
+  text-decoration: none !important;
+  color: #333;
+}
+
+.dropdown-submenu .dropdown-item-custom:hover {
+  background-color: #f0f0f0;
+  color: #007bff;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  background-color: #ffffff;
+  border: 1px solid #213F61;
+}
+
+.nav-link-custom.navlinks.active {
+  background-color: #213F61; /* Same as hover background */
+  color: #ffffff !important; /* Same as hover text color */
+}
+
+.nav-link-custom.navlinks.active .dropDownNav {
+  color: #ffffff !important; /* Icon and span color for active state */
+}
+
+/* Mobile Navigation Background */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #6fbbfa; /* White background, adjust color as needed */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .navbar-toggler {
+    border-color: #213F61; /* Optional: match your theme color */
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23213F61' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
 }

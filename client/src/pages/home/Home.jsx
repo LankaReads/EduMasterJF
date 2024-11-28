@@ -14,6 +14,7 @@ import NavBar from '@/components/navBar/Nav';
 import Section from '@/components/Section/Section';
 import Medisection from '@/components/Medisection/Medisection';
 import PersonIntro from '@/components/PersonIntro/PersonIntro';
+import CourseSection from '@/components/CourseSection/CourseSection';
 
 function Home() {
   return (
@@ -38,7 +39,7 @@ function Home() {
    <Features />
     <Videos/>
     
-    
+    <CourseSection />
     
     <ScrollTop/>
     <Whatsapp/>
